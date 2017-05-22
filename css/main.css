@@ -21,12 +21,9 @@ body{
 
 #azul{
 	background-color: #2B7DB9;
-	position:absolute;/* si pongo relative, se separa del resto y deja el espacio vacio en medio. Si pongo absolute, cuadrado verde sube y toma posicion anterior del azul*/
-	top:200px;
-	left:200px;
 	
 }
-/* NOTA: position:absolute no respeta el flujo del doc mientras que relative si (dejo el espacio vacio)*/
+
 #verde{
 	background-color: #B7D84B;
 	
