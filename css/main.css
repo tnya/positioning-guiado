@@ -11,19 +11,30 @@ body{
 .caja{
 	width:200px;
 	height:200px;
+	position:absolute;/* posicion absolute para la clase (i.e. todas las cajas)*/
 }
 
 #rosa{
 	background-color: #EE3E64;
+	left:0;
+	right:0;
 }
 
 #azul{
 	background-color: #2B7DB9;
-	position: relative;/*la posicion no depende de otro y se mueve bajo sus propiad coordenadas*/
-	left: 200px;/* que desde la izq del elem al q le aplicamos esto se aleje 200px*/
+	right:0;
+	top:0;
 	
 }
 
 #verde{
 	background-color: #B7D84B;
+	left:0;
+	bottom:0;
+}
+
+#amarillo{
+	background-color: #FAFF16;
+	right:0;
+	bottom:0;
 }
