@@ -11,30 +11,28 @@ body{
 .caja{
 	width:200px;
 	height:200px;
-	position:absolute;/* posicion absolute para la clase (i.e. todas las cajas)*/
+	
 }
 
 #rosa{
 	background-color: #EE3E64;
-	left:0;
-	right:0;
+	
 }
 
 #azul{
 	background-color: #2B7DB9;
-	right:0;
-	top:0;
+	position:absolute;/* si pongo relative, se separa del resto y deja el espacio vacio en medio. Si pongo absolute, cuadrado verde sube y toma posicion anterior del azul*/
+	top:200px;
+	left:200px;
 	
 }
-
+/* NOTA: position:absolute no respeta el flujo del doc mientras que relative si (dejo el espacio vacio)*/
 #verde{
 	background-color: #B7D84B;
-	left:0;
-	bottom:0;
+	
 }
 
 #amarillo{
 	background-color: #FAFF16;
-	right:0;
-	bottom:0;
+	
 }
