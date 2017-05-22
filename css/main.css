@@ -19,6 +19,8 @@ body{
 
 #azul{
 	background-color: #2B7DB9;
+	position: relative;/*la posicion no depende de otro y se mueve bajo sus propiad coordenadas*/
+	left: 200px;/* que desde la izq del elem al q le aplicamos esto se aleje 200px*/
 	
 }
 
